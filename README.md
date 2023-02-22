@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Plate Ball Asserv est programme permettant l'asservissement d'une bille sur la maquette dédiée. 
+Plate Ball Asserv est un programme permettant l'asservissement d'une bille sur la maquette dédiée. 
 
 Le but de cette programme est d'assurer la présence de la bille au milieu de la maquette. 
 
