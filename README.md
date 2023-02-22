@@ -1,2 +1,2 @@
-# plate_ball_asserv
-Asservissement d'un bille sur un plateau
+# Asservissement d'un balle sur un plateau à l'aide d'une caméra
+
