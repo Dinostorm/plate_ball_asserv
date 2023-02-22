@@ -1,7 +1,7 @@
 ## Contrôle servo moteur en fonction des coordonnées de la bille et du PID
 # Importez les bibliothèques nécessaires
 from detect_ball import *
-from test_detect_contours import *
+from detect_contours import *
 from piservo import Servo
 from PID import PID
 import subprocess
