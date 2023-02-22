@@ -6,6 +6,8 @@ Plate Ball Asserv est programme permettant l'asservissement d'une bille sur la m
 
 Le but de cette programme est d'assurer la présence de la bille au milieu de la maquette. 
 
+![photo_maquette](https://user-images.githubusercontent.com/38004572/220627617-956b96fd-c92e-4b40-a5b0-88268b7dfe3b.jpg)
+
 ## Installation
 
 Le projet se base sur l'utilisation d'une Raspberry Pi, d'une caméra Raspberry et de servomoteurs. 
