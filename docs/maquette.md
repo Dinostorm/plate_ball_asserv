@@ -1,7 +1,7 @@
 # Plan de la maquette
 
 Schéma Maquette:
-![alt text](https://github.com/Dinostorm/plate_ball_asserv/tree/main/image](https://github.com/Dinostorm/plate_ball_asserv/blob/main/image/Maquette.drawio.png)
+![alt text](https://github.com/Dinostorm/plate_ball_asserv/blob/main/image/Maquette.drawio.png)
 
 Photo Maquette:
 ![alt text](https://github.com/Dinostorm/plate_ball_asserv/blob/main/image/photo_maquette_2.jpg)
