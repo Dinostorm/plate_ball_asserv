@@ -6,7 +6,7 @@ Plate Ball Asserv est un programme permettant l'asservissement d'une bille sur l
 
 Le but de cette programme est d'assurer la présence de la bille au milieu de la maquette. 
 
-![photo_maquette](https://user-images.githubusercontent.com/38004572/220627617-956b96fd-c92e-4b40-a5b0-88268b7dfe3b.jpg)
+![photo_maquette](https://github.com/Dinostorm/plate_ball_asserv/blob/main/image/photo_maquette.jpg)
 
 ## Installation
 
