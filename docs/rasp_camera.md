@@ -1,5 +1,7 @@
 # Caméra Raspberry (B) Rev02
 
+## Récupération du flux vidéo
+
 Dans un premier temps, le flux vidéo était récupéré avec la commande :
 
  ```python
@@ -28,6 +30,8 @@ frame = rawCapture.array : Cette ligne extrait l'image brute stockée dans l'obj
 
 On peut maintenant utiliser l'objet frame pour traiter l'image à l'aide des fonctions OpenCV.
 
+## Traitement de l'image
+### Isolation des pixels de la couleur jaune
 Ensuite un traitement d'image est effectué sur les données pour extraire certaines couleurs. Dans le cas de la fonction *func_detect_ball*, c'est la couleur jaune. 
 
  ```python
@@ -55,6 +59,7 @@ mask = cv2.inRange(hsv, lower_yellow, upper_yellow) : Cette ligne crée un masqu
 
 res = cv2.bitwise_and(frame, frame, mask=mask) : Cette ligne applique le masque créé précédemment à l'image d'origine. Seuls les pixels correspondant à la couleur jaune passent à travers le masque et les autres pixels sont masqués en noir. L'objet res contient maintenant l'image d'origine filtrée, où seuls les pixels jaunes sont présents.
 
+### Calcul du centre de la balle
  ```python
  # Detect contours in the mask
     contours, _ = cv2.findContours(mask, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
@@ -90,5 +95,7 @@ cx = int(moments["m10"] / moments["m00"]) et cy = int(moments["m01"] / moments["
 cv2.circle(frame, (cx, cy), 5, (0, 0, 255), -1) : Cette ligne dessine un cercle rouge de rayon 5 pixels à l'emplacement du centre du contour sur l'image d'origine. La fonction cv2.circle prend en entrée l'image d'origine, les coordonnées du centre, le rayon du cercle, la couleur (ici, rouge) et l'épaisseur du contour (-1 signifie que le cercle est rempli).
 
 Grâce à cette fonction, on peut maintenant récupérer les coordonnées du centre de la balle.
+
+## Détection du centre du plateau
 
 Dans le cas de la fonction *detect_center* c'est les coordonnées du centre de la planche sauf que dans ce cas là c'est les pixels de la couleur blanche qui sont extrait de du flux vidéo capturé.

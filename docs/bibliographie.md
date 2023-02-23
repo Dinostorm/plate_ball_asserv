@@ -33,3 +33,5 @@ https://pyimagesearch.com/2015/03/30/accessing-the-raspberry-pi-camera-with-open
 ### Servomoteurs :
 
 https://pypi.org/project/piServo/
+
+https://github.com/naoto64/piServoCtl
