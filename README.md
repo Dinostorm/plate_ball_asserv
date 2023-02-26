@@ -2,11 +2,9 @@
 
 ## Introduction
 
-Plate Ball Asserv est un programme permettant l'asservissement d'une bille sur la maquette dédiée. 
+Plate Ball Asserv est programme permettant l'asservissement d'une bille sur la maquette dédiée. 
 
 Le but de cette programme est d'assurer la présence de la bille au milieu de la maquette. 
-
-![photo_maquette](https://github.com/Dinostorm/plate_ball_asserv/blob/main/image/photo_maquette.jpg)
 
 ## Installation
 
@@ -18,12 +16,20 @@ Copie des fichiers sources depuis Github :
 git clone https://github.com/Dinostorm/plate_ball_asserv.git
 ```
 
-Le projet fonctionne avec Python et dépend des bibliothèques suivantes :
+Le projet fonctionne avec Python :
+
+    3.7
+    3.8
+    3.9
+    3.10
+    3.11
+
+Et dépend des bibliothèques suivantes :
 
 - OpenCV
 - RPi.GPIO
 - picamera
-- piservo
+- piServoCtl (version : 1.1.0)
 
 ## Lancement
 

@@ -35,3 +35,7 @@ https://pyimagesearch.com/2015/03/30/accessing-the-raspberry-pi-camera-with-open
 https://pypi.org/project/piServo/
 
 https://github.com/naoto64/piServoCtl
+
+# Remerciement
+
+Je remercie Mallory LE HUAULT-PARC et Benjamin EVANNO pour leur aide.

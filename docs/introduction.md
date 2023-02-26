@@ -1,9 +1,15 @@
 # Introduction
 
 ## Sujet
-Asservissement à l’aide d’un FPGA
+### Asservissement à l’aide d’un FPGA
 
 Le sujet proposé ici consiste à réaliser un système électro-mécanique simple : on essaie de stabiliser une bille placée sur un plan. Le sujet consiste à réaliser le système in-extenso (électronique de puissance, achat des composants, électronique de contrôle, tests, etc). La seule contrainte forte est que ce système doit être réalisé à l’aide d’un FPGA.
+
+## Nouveau Sujet
+### Spécification du système d’asservissement
+
+Le nouveau sujet consiste à réaliser un Pré-protoype d'un système électro-mécanique simple: : on realise le prototype d'un système d'asservissement d'une bille sur un plan. On vient ensuite spécifié tout les éléments qui sont nécessaires pour réaliser le système d'asservissement. 
+
 
 ## Plan
 
@@ -11,14 +17,14 @@ Le sujet proposé ici consiste à réaliser un système électro-mécanique simp
 - Raspberry
     - Caméra
     - Système
-- FPGA
-    - Caméra
-    - Système 
+        - PID
+        - Servomoteurs
+- Spécifications
 - Amélioration   
 
 ## Installation et lancement
 
-Pour installer et lancer le système, il faut allez voir dans le **README.md**.
+Pour installer et lancer le système, il faut allez voir dans le [README.md](../README.md).
 
 ## Matériels
 
